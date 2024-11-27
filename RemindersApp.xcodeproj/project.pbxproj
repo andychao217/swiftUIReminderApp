@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F02FD97C2CE6EFCF0016DDEF /* RemindersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E310162CE6F63000D82B55 /* RemindersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,8 @@
 			isa = PBXGroup;
 			children = (
 				F02FD97E2CE6EFCF0016DDEF /* RemindersApp */,
-				F02FD97D2CE6EFCF0016DDEF /* Products */,
+				F0E310162CE6F63000D82B55 /* RemindersApp.app */,
 			);
-			sourceTree = "<group>";
-		};
-		F02FD97D2CE6EFCF0016DDEF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F02FD97C2CE6EFCF0016DDEF /* RemindersApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +59,7 @@
 			packageProductDependencies = (
 			);
 			productName = RemindersApp;
-			productReference = F02FD97C2CE6EFCF0016DDEF /* RemindersApp.app */;
+			productReference = F0E310162CE6F63000D82B55 /* RemindersApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,11 +83,14 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
 			);
 			mainGroup = F02FD9732CE6EFCF0016DDEF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F02FD97D2CE6EFCF0016DDEF /* Products */;
+			productRefGroup = F02FD9732CE6EFCF0016DDEF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -184,6 +179,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -240,6 +236,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
